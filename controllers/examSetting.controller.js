@@ -436,7 +436,7 @@ router.get("/list-all-seating-arrangement", async (req, res) => {
               return {
                 batchId: classData.batchId,
                 batchName: `${batchData?.batchName} - ${sectionData?.sectionName}`,
-                programName: `${batchData?.programName} - ${sectionData?.programName}`,
+                programName: `${batchData?.programName}`,
                 sectionId: classData.sectionId,
                 courseId: classData.courseId,
                 courseName: `${courseData?.courseAbreviation} - ${courseData?.courseTitle}`,
